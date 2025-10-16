@@ -1,10 +1,7 @@
 import type { NextConfig } from "next";
 
 const nextConfig: NextConfig = {
-  experimental: {
-    esmExternals: "loose",
-    serverComponentsExternalPackages: ["@zerodev/permissions", "@zerodev/sdk"],
-  },
+  /* config options here */
 };
 
 export default nextConfig;
